@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist", // ✅ Output compiled JS files in 'dist' folder
+    "rootDir": "./src", // ✅ Source files are inside 'src'
+    "target": "ES6", // ✅ Use ES6+ for Mini Program compatibility
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src/**/*.ts", "src/**/*.mpx"], // ✅ Include MPX & TS files
+  "exclude": ["node_modules"]
+}
