@@ -1,7 +1,7 @@
 import axios from "axios";
 
 // Define base URL
-const API_BASE_URL = "http://localhost:5000/api";
+const API_BASE_URL = "https://crud-app-typescript-server.onrender.com/api";
 
 // Define API response types
 interface User {
